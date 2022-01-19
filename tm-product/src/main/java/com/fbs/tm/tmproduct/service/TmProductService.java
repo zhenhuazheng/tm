@@ -16,4 +16,8 @@ public interface TmProductService extends IService<TmProduct> {
 
     //@Value("${}")
 
+    default String info(){
+        return null;
+    }
+
 }
